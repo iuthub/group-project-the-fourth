@@ -2,7 +2,11 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
+<<<<<<< HEAD
 /../../../../../:\INHA2021\IProject\group-project-the-fourth\.idea/dataSources/
+=======
+/dataSources/
+>>>>>>> origin/master
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
