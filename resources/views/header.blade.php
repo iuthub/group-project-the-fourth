@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark bg-dark" style="background-color: #A3A4B6;">
+<nav class="navbar navbar-dark bg-dark" style="background-color: #4c345c;">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -14,8 +14,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="/myorders">Facts</a></li>
+                <li class="active"><a style="color: white; font-size:15pt" href="#">Home</a></li>
+                <li><a style="color: white; font-size:15pt" href="/myorders">Facts</a></li>
             </ul>
             <form action="/search" class="navbar-form navbar-left">
                 <div class="form-group">

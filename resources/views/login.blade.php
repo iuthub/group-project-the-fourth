@@ -1,5 +1,6 @@
 @extends('master')
 @section("content")
+ <link rel="stylesheet" href="{{ URL::to('css/app.css') }}">
     <div class="container custom-login">
         <div class="row">
             <div class="col-sm-4 col-sm-offset-4">
@@ -14,7 +15,7 @@
                         <label for="exampleInputPassword1" class="form-label">Password</label>
                         <input type="password" name="password" class="form-control" id="exampleInputPassword1">
                     </div>
-                    <button type="submit" class="btn btn-primary">Log in</button>
+                    <button type="submit" style="margin-top: 10px; background-color: #4c345c; border-color: #4c345c;" class="btn btn-primary">Log in</button>
                 </form>
             </div>
 

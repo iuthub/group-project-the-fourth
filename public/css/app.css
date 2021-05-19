@@ -1,0 +1,28 @@
+ body {
+     background: #A3A4B6;
+ }
+div.navbar-header{
+    min-height: 50px;
+}
+a.navbar-brand{
+    color: white; font-size:20pt;
+}
+div.mb-3 input{
+    border-radius: 10px;
+    border-color:#4c345c;
+}
+div.mb-3 #emailHelp{
+    font-size: 10pt;
+    color:white;
+}
+div.mb-3 label{
+    font-size:20pt;
+    color:#4c345c;
+    padding-top: 10px;
+}
+div.container-fluid{
+    padding-top:0px;
+    border-bottom: none;
+    margin-top: 0px;
+}
+
