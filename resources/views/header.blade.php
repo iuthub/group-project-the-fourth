@@ -16,6 +16,19 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="/blog">Blog</a></li>
                 <li><a href="/facts">Facts</a></li>
+                @if(Session::has('user'))
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{Session::get('user')['name']}}
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="/logout">Logout</a></li>
+                    </ul>
+                </li>
+                @else
+                    <li><a href="/login">Login</a></li>
+                @endif
+
             </ul>
             <form action="/search" class="navbar-form navbar-left">
                 <div class="form-group">
@@ -23,6 +36,12 @@
                 </div>
                 <button type="submit" class="btn btn-default">Search</button>
             </form>
+
+
         </div><!-- /.navbar-collapse -->
+
+
     </div><!-- /.container-fluid -->
+
+
 </nav>
