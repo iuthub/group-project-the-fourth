@@ -14,8 +14,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="/myorders">Facts</a></li>
+                <li class="active"><a href="/blog">Blog</a></li>
+                <li><a href="/facts">Facts</a></li>
             </ul>
             <form action="/search" class="navbar-form navbar-left">
                 <div class="form-group">
