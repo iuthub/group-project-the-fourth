@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark bg-dark" style="background-color: #A3A4B6;">
+<nav class="navbar navbar-dark bg-dark" style="background-color: #4c345c;">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -14,9 +14,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/blog">Blog</a></li>
-                <li><a href="/facts">Facts</a></li>
-                <li><a href="/register">Register</a></li>
+                <li class="active"><a style="color: white; font-size:15pt" href="/blog">Blog</a></li>
+                <li><a style="color: white; font-size:15pt" href="/facts">Facts</a></li>
+                <li><a style="color: white; font-size:15pt" href="/register">Register</a></li>
                 @if(Session::has('user'))
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
