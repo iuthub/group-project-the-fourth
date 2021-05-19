@@ -19,12 +19,13 @@ use App\Http\Controllers\BlogController;
 Route::get('/login', function () {
     return view('login');
 });
-
+Route::view('/register','register');
 Route::get('/logout', function () {
     Session::forget('user');
     return redirect('login');
 });
 Route::post("/login",[UserController::class, 'login']);
+Route::post("/register",[UserController::class, 'register']);
 
 Route::get("/",[BlogController::class, 'index']);
 
