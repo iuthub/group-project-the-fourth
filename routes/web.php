@@ -33,6 +33,7 @@ Route::post("/register",[UserController::class, 'register']);
 
 
 Route::view("/facts",'facts');
+Route::view("/services",'services');
 
 Route::get("/",[BlogController::class, 'index']);
 
