@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BlogController;
-
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,8 +25,8 @@ Route::get('/logout', function () {
     return redirect('login');
 });
 
-Route::get('/contactus', 'ContactController@getContact');
-Route::post('/contactus', 'ContactController@saveContact');
+Route::get('/contactus', [ContactController::class,'contact' ]);
+Route::post('/send-message', [ContactController::class,'sendEmail' ])->name('contact.send');
 
 Route::post("/login",[UserController::class, 'login']);
 Route::post("/register",[UserController::class, 'register']);
