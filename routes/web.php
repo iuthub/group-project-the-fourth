@@ -33,7 +33,8 @@ Route::post("/register",[UserController::class, 'register']);
 
 
 Route::view("/facts",'facts');
-Route::view("/services",'services');
+Route::view("/mission",'services');
+Route::view("/aboutus",'aboutus');
 
 Route::get("/",[BlogController::class, 'index']);
 

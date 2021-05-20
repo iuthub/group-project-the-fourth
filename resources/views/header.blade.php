@@ -14,9 +14,20 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/blog">Blog</a></li>
-                <li><a href="/facts">Facts</a></li>
-                <li><a href="/services">Services</a></li>
+                @if(Session::has('user'))
+                    <li class="active"><a href="/blog">Blog</a></li>
+                    <li><a href="/facts">Facts</a></li>
+                    @endif
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/mission">Mission</a></li>
+                            <li><a class="dropdown-item" href="/aboutus">About us</a></li>
+                        </ul>
+                    </li>
+
                 @if(Session::has('user'))
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
