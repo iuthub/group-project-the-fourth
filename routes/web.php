@@ -24,8 +24,15 @@ Route::get('/logout', function () {
     Session::forget('user');
     return redirect('login');
 });
+
+Route::get('/contactus', 'ContactController@getContact');
+Route::post('/contactus', 'ContactController@saveContact');
+
 Route::post("/login",[UserController::class, 'login']);
 Route::post("/register",[UserController::class, 'register']);
+
+
+Route::view("/facts",'facts');
 
 Route::get("/",[BlogController::class, 'index']);
 
