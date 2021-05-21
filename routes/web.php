@@ -42,4 +42,8 @@ Route::get('/project1', function()
 {
     return view('project1');
 });
+Route::get('/project2', function()
+{
+    return view('project2');
+});
 

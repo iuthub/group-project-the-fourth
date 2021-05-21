@@ -6,7 +6,8 @@
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
     </div>
-
-    <a href="project1">See project 1</a>
-
+<ul>
+   <li> <a href="project1">See project 1</a> </li>
+   <li> <a href="project2">See project 2</a> </li>
+</ul>
 @endsection
