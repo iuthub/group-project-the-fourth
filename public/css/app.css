@@ -29,4 +29,10 @@ div.container-fluid li a{
     color: white;
     font-size:12pt;
 }
+#footer{
+    clear:both;
+    border-radius: 10px;
+    border-color:#4c345c;
+    margin-top: 120px;
+}
 
