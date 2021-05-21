@@ -23,14 +23,14 @@
 
 <style>
     .trening-item{
-        width: 300px;
-        border: 15px solid green;
-        padding: 50px;
-        margin: 20px;
-        padding-bottom: 50px;
+        width: 900px;
+        padding: 10px;
+        border: 5px solid #332C23;
+        margin-bottom: 20px;
     }
     .trending-wrapper{
-        margin: 30px;
+        margin: 10px;
+        margin-top: 30px;
     }
     .custom-login{
         height: 500px;
