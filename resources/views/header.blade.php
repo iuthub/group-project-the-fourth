@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark bg-dark" style="background-color: #A3A4B6;">
+<nav class="navbar navbar-dark bg-dark" style="background-color: #4c345c;;">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -15,7 +15,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 @if(Session::has('user'))
-                    <li class="active"><a href="/blog">Blog</a></li>
+                    <li class="active"><a style="color: white; font-size:12pt" href="/blog">Blog</a></li>
                     <li><a href="/facts">Facts</a></li>
                     @endif
                     <li class="nav-item dropdown">

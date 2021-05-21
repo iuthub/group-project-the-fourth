@@ -25,4 +25,8 @@ div.container-fluid{
     border-bottom: none;
     margin-top: 0px;
 }
+div.container-fluid li a{
+    color: white;
+    font-size:12pt;
+}
 
