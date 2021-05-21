@@ -38,3 +38,8 @@ Route::view("/aboutus",'aboutus');
 
 Route::get("/",[BlogController::class, 'index']);
 
+Route::get('/project1', function()
+{
+    return view('project1');
+});
+

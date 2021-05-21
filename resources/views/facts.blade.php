@@ -7,4 +7,6 @@
         </div>
     </div>
 
+    <a href="project1">See project 1</a>
+
 @endsection
