@@ -3,7 +3,15 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">About us</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+
+            <div>
+                <img src="{{ asset('/who.png') }}" alt="Who we are" title="" style="width: 460px; height: 600px ">
+                <img src="{{ asset('/what.png') }}" alt="What we are" title="" style="width: 460px; height: 600px ">
+                <p></p>
+                <img src="{{ asset('/why .png') }}" alt="Why we are" title="" style="width: 460px; height: 600px ">
+                <img src="{{ asset('/how.png') }}" alt="How to find us" title="" style="width: 460px; height: 600px ">
+            </div>
+
         </div>
     </div>
 @endsection
