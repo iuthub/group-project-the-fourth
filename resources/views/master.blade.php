@@ -26,5 +26,13 @@
         height: 500px;
         padding-top: 100px;
     }
+    .img.slider-img{
+        height: 400px !important;
+    }
+    .custom-article{
+        height: 700px;
+        width: 700px;
+        padding-top: 0px;
+    }
 </style>
 </html>
