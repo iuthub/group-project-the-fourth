@@ -47,3 +47,5 @@ Route::get('/project2', function()
     return view('project2');
 });
 
+Route::view("/blog",'blog');
+
