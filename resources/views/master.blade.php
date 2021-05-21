@@ -22,6 +22,16 @@
 </body>
 
 <style>
+    .trening-item{
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+        padding-bottom: 50px;
+    }
+    .trending-wrapper{
+        margin: 30px;
+    }
     .custom-login{
         height: 500px;
         padding-top: 100px;

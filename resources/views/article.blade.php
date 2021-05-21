@@ -41,7 +41,22 @@
             </a>
         </div>
 
-
+<div>
+    <div class="trending-wrapper">
+        <h3>Tredning Products</h3>
+        @foreach($articles as $item)
+            <div class="trening-item">
+                    <div class="">
+                        <h3>{{$item['name']}}</h3>
+                        <p>Author: {{$item['author']}}</p>
+                        <p>Category: {{$item['category']}}</p>
+                    </div>
+                </a>
+            </div>
+        @endforeach
+    </div>
+</div>
+</div>
 
 
 @endsection

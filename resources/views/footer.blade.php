@@ -1,6 +1,12 @@
-<div id="footer"  class="panel panel-default">
+<div id="footer"  class="">
     <div class="panel-body">
         © 2021 Technimals Inc. All rights reserved.
     </div>
-    <div class="panel-footer">Contact us: abdrashitova1elina@gmail.com</div>
 </div>
+<style>
+    .panel-body{
+        position: fixed;
+        bottom: 0px;
+    }
+
+</style>

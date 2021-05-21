@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ArticleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,5 +48,5 @@ Route::get('/project2', function()
     return view('project2');
 });
 
-Route::view("/blog",'article');
+Route::get("/blog",[ArticleController::class,'articles']);
 
