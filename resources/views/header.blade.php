@@ -15,7 +15,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 @if(Session::has('user'))
-                    <li class="active"><a style="color: white; font-size:12pt" href="/blog">Blog</a></li>
+                    <li class="active"><a  href="/blog">Blog</a></li>
                     <li><a href="/facts">Facts</a></li>
                     @endif
                     <li class="nav-item dropdown">
@@ -23,8 +23,8 @@
                             Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="/mission">Mission</a></li>
-                            <li><a class="dropdown-item" href="/aboutus">About us</a></li>
+                            <li><a class="dropdown-item" style="color: black; font-size:12pt" href="/mission">Mission</a></li>
+                            <li><a class="dropdown-item"  style="color: black; font-size:12pt"href="/aboutus">About us</a></li>
                         </ul>
                     </li>
 
