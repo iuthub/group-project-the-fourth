@@ -1,0 +1,12 @@
+@extends('master')
+@section("content")
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Facts</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div>
+
+    <a href="project1">See project 1</a>
+
+@endsection
