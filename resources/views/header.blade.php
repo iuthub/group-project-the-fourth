@@ -33,9 +33,7 @@
 
                     <li><a href="/contactus">Contact us</a></li>
                 @else
-                    <li><a href="/register">Register</a></li>
-                    <li><a href="/login">Login</a></li>
-                @endif
+                    @endif
             </ul>
             <form action="/search" class="navbar-form navbar-left">
                 <div class="form-group">
@@ -45,8 +43,8 @@
             </form>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/cartlist">Favorite list</a></li>
                 @if(Session::has('user'))
+                    <li><a href="/cartlist">Favorite list</a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{Session::get('user')['name']}}
                             <span class="caret"></span></a>
@@ -55,6 +53,7 @@
                         </ul>
                     </li>
                 @else
+                    <li><a href="/register">Register</a></li>
                     <li><a href="/login">Login</a></li>
                 @endif
             </ul>

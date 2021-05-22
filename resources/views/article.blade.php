@@ -40,12 +40,12 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+    </div>
 
-<div>
-    <div class="trending-wrapper">
-        <h3>Articles</h3>
+        <div class="container" >
+        <div class="trending-wrapper" ">
         @foreach($articles as $item)
-            <div class="trening-item">
+            <div class="trending-item">
                 <a href="detail/{{$item['id']}}">
                     <div class="">
                         <h3>{{$item['name']}}</h3>
@@ -54,10 +54,10 @@
                     </div>
                 </a>
             </div>
+        </div>
         @endforeach
     </div>
-</div>
-</div>
+
 
 
 @endsection

@@ -25,15 +25,16 @@
     body{
         background: #A3A4B6;
     }
-    .trening-item{
-        width: 700px;
+    .trending-item{
+        align: center;
+        width: 900px;
         padding: 10px;
         border: 5px solid #332C23;
-        margin-bottom: 20px;
+        margin: 50px;
+        margin-left: 100px;
     }
     .trending-wrapper{
-        margin: 10px;
-        margin-top: 30px;
+
     }
     .custom-login{
         height: 500px;
@@ -43,9 +44,12 @@
         height: 400px !important;
     }
     .custom-article{
-        height: 700px;
         width: 700px;
         padding-top: 0px;
+    }
+    .cart-list-devider{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
     }
 </style>
 </html>
