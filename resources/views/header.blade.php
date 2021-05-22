@@ -39,7 +39,7 @@
             </ul>
             <form action="/search" class="navbar-form navbar-left">
                 <div class="form-group">
-                    <input type="text" name="query" style="margin-left: 480px; min-width: 200px;" class="form-control search-box" placeholder="Search">
+                    <input type="text" name="query" style=" min-width: 200px;" class="form-control search-box" placeholder="Search">
                 </div>
                 <button type="submit" class="btn btn-default" >Search</button>
             </form>
@@ -51,7 +51,7 @@
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{Session::get('user')['name']}}
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="/logout">Logout</a></li>
+                            <li><a style="color: black; font-size:12pt" href="/logout">Logout</a></li>
                         </ul>
                     </li>
                 @else
