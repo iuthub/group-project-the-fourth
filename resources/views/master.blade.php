@@ -26,7 +26,7 @@
         background: #A3A4B6;
     }
     .trening-item{
-        width: 900px;
+        width: 700px;
         padding: 10px;
         border: 5px solid #332C23;
         margin-bottom: 20px;

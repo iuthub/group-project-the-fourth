@@ -1,5 +1,5 @@
-<nav class="navbar navbar-dark bg-dark" >
-    <div class="navbar-all">
+
+<nav class="navbar navbar-dark bg-dark" style="background-color: #4c345c;;">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand"  href="/">Technimals</a>
+            <a class="navbar-brand" href="/">Technimals</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -25,19 +25,12 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" style="color: black; font-size:12pt" href="/mission">Mission</a></li>
-                            <li><a class="dropdown-item"  style="color: black; font-size:12pt" href="/aboutus">About us</a></li>
+                            <li><a class="dropdown-item"  style="color: black; font-size:12pt"href="/aboutus">About us</a></li>
                         </ul>
                     </li>
 
                 @if(Session::has('user'))
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        {{Session::get('user')['name']}}
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" style="color: black; font-size:12pt" href="/logout">Logout</a></li>
-                    </ul>
-                </li>
+
                     <li><a href="/contactus">Contact us</a></li>
                 @else
                     <li><a href="/register">Register</a></li>
@@ -50,7 +43,26 @@
                 </div>
                 <button type="submit" class="btn btn-default" >Search</button>
             </form>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/cartlist">Favorite list</a></li>
+                @if(Session::has('user'))
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{Session::get('user')['name']}}
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/logout">Logout</a></li>
+                        </ul>
+                    </li>
+                @else
+                    <li><a href="/login">Login</a></li>
+                @endif
+            </ul>
+
+
         </div><!-- /.navbar-collapse -->
+
+
     </div><!-- /.container-fluid -->
-    </div>
+
 </nav>

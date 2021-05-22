@@ -52,4 +52,7 @@ Route::get('/project3', function()
     return view('project3');
 });
 Route::get("/blog",[ArticleController::class,'articles']);
+Route::get("detail/{id}",[ArticleController::class,'detail']);
+Route::post('add_to_cart',[ArticleController::class,'addToCart']);
+Route::get('cartlist',[ArticleController::class,'cartList']);
 

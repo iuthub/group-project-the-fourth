@@ -46,6 +46,7 @@
         <h3>Articles</h3>
         @foreach($articles as $item)
             <div class="trening-item">
+                <a href="detail/{{$item['id']}}">
                     <div class="">
                         <h3>{{$item['name']}}</h3>
                         <p>Author: {{$item['author']}}</p>
