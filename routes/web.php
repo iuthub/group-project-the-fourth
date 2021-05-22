@@ -47,6 +47,9 @@ Route::get('/project2', function()
 {
     return view('project2');
 });
-
+Route::get('/project3', function()
+{
+    return view('project3');
+});
 Route::get("/blog",[ArticleController::class,'articles']);
 

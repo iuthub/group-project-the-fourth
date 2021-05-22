@@ -9,5 +9,6 @@
 <ul>
    <li> <a href="project1">See project 1</a> </li>
    <li> <a href="project2">See project 2</a> </li>
+    <li> <a href="project3">See project 3</a> </li>
 </ul>
 @endsection

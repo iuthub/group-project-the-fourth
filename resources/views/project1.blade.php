@@ -20,16 +20,19 @@
             relief, they also serve us as valuable assistants. However, some problems related to their health and
             safety occur in our modern world.</p>
         <h2>Current conceptual design aims to solve three of those issues, namely accidents, stealing and loss.</h2>
-        <h3> Click below to download project</h3>
+        <div style="text-align: center;">
+        <?php
 
+        echo "<iframe src=\"report1.pdf\" width=\"60%\" style=\"height:700px\"></iframe>";
+        ?>
+            <p class="lead"> <strong> Look at the concept 3D animation :)</strong></p>
+        <?php
+        echo "<iframe src=\"mod_horse.mp4\" width=\"60%\" style=\"height:450px\"></iframe>";
+        ?>
+        </div>
     </div>
-    <div id="listarea">
-        <ul>
-            <li> <a href="../../storage/app/public/report1.pdf" target="_blank">Download PDF file of report</a> </li>
-            <li><a href="presentation1.pptx" target="_blank">Download PowerPoint file of report</a></li>
-            <li><a href="mod_horse.mp4" target="_blank">Look at 3D design of concept</a></li>
-        </ul>
-    </div>
+
+
     </body>
 
     </html>
