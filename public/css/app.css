@@ -49,7 +49,7 @@ div.container img.home-img{
     width: 45%;
     height: 45%;
 }
-div.container h1.display-4{
+div.container  h1#post_page{
     margin-bottom: -20px;
 }
 
