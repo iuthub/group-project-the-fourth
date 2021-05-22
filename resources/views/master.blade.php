@@ -22,6 +22,9 @@
 </body>
 
 <style>
+    body{
+        background: #A3A4B6;
+    }
     .trening-item{
         width: 900px;
         padding: 10px;

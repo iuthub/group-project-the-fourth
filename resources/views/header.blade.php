@@ -1,4 +1,5 @@
-<nav class="navbar navbar-dark bg-dark" style="background-color: #4c345c;;">
+<nav class="navbar navbar-dark bg-dark" >
+    <div class="navbar-all">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -24,7 +25,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" style="color: black; font-size:12pt" href="/mission">Mission</a></li>
-                            <li><a class="dropdown-item"  style="color: black; font-size:12pt"href="/aboutus">About us</a></li>
+                            <li><a class="dropdown-item"  style="color: black; font-size:12pt" href="/aboutus">About us</a></li>
                         </ul>
                     </li>
 
@@ -34,7 +35,7 @@
                         {{Session::get('user')['name']}}
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="/logout">Logout</a></li>
+                        <li><a class="dropdown-item" style="color: black; font-size:12pt" href="/logout">Logout</a></li>
                     </ul>
                 </li>
                     <li><a href="/contactus">Contact us</a></li>
@@ -57,5 +58,5 @@
 
     </div><!-- /.container-fluid -->
 
-
+    </div>
 </nav>
