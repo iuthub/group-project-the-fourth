@@ -6,6 +6,6 @@
 <style>
     .panel-body{
         position: fixed;
-        bottom: 0px;
+        bottom: 0;
     }
 </style>
