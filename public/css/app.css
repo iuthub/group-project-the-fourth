@@ -5,13 +5,40 @@
      padding-bottom: 0;
      padding-top: 0;
  }
-div.navbar-header{
-    margin: 0;
-    padding: 0;
-}
-a.navbar-brand{
-    color: white; font-size:20pt;
-}
+
+
+ /*header styles*/
+ div.navbar-all{
+     background-color: #4c345c;
+     position:fixed;
+     min-width: 100%;
+     margin: 0;
+     padding-top: 0;
+     border-radius: 10px;
+ }
+
+
+ /*navigation-bar*/
+ div.container-fluid li a{
+     color: white;
+     font-size:12pt;
+ }
+ a.navbar-brand{
+     color: white; font-size:20pt;
+ }
+
+
+ /*navigation-bar link styles*/
+ div.navbar-header a:hover {
+     background-color: #9F87AF;
+     color: white;
+ }
+ div.container-fluid li a:hover{
+     background-color: #9F87AF;
+ }
+
+
+ /*login page*/
 div.mb-3 input{
     border-radius: 10px;
     border-color:#4c345c;
@@ -25,29 +52,12 @@ div.mb-3 label{
     color:#4c345c;
     padding-top: 10px;
 }
-div.container-fluid{
-    margin: 0;
-}
-div.container-fluid li a{
-    color: white;
-    font-size:12pt;
-}
+
+
+/* footer style */
 #footer{
     clear:both;
     border-radius: 10px;
     border-color:#4c345c;
     margin-top: 120px;
 }
-
-div.navbar-all{
-    background-color: #4c345c;
-    position:fixed;
-    min-width: 100%;
-    margin: 0;
-    padding-top: 0;
-    border-radius: 10px;
-}
- .panel-body{
-     position: fixed;
-     bottom: 0px;
- }

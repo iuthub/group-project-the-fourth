@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Technimals</a>
+            <a class="navbar-brand"  href="/">Technimals</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,11 +51,7 @@
                 </div>
                 <button type="submit" class="btn btn-default">Search</button>
             </form>
-
-
         </div><!-- /.navbar-collapse -->
-
-
     </div><!-- /.container-fluid -->
 
     </div>
