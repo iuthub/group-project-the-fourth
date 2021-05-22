@@ -43,16 +43,14 @@
                     <li><a href="/register">Register</a></li>
                     <li><a href="/login">Login</a></li>
                 @endif
-
             </ul>
             <form action="/search" class="navbar-form navbar-left">
                 <div class="form-group">
-                    <input type="text" name="query" class="form-control search-box" placeholder="Search">
+                    <input type="text" name="query" style="margin-left: 480px; min-width: 200px;" class="form-control search-box" placeholder="Search">
                 </div>
-                <button type="submit" class="btn btn-default">Search</button>
+                <button type="submit" class="btn btn-default" >Search</button>
             </form>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
-
     </div>
 </nav>

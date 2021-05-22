@@ -7,13 +7,13 @@
         </div>
     </div>
 
-    <div class="container custom-login">
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-4">
-                <div class="card">
-                    <div class="card-header">
+    <div class="container custom-login" style="max-width: 700px">
+        <div class="row" >
+            <div class="col-sm-4 col-sm-offset-4" >
+                <div class="card" >
+                    <div class="card-header" >
                     </div>
-                    <div class="card-body">
+                    <div class="card-body" >
                         @if(Session::has('message_sent'))
                             <div class="alert alert-success" role="alert">
                                 {{Session::get('message_sent')}}
@@ -23,7 +23,7 @@
                             @csrf
                             <div class="form-group">
                                 <label for="name">Name</label>
-                                <input type="text" name="name" class="form-control"/>
+                                <input type="text" name="name"  class="form-control"/>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
@@ -33,7 +33,7 @@
                                 <label for="msg">Message</label>
                                 <textarea name="msg" class="form-control"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary float-right">
+                            <button type="submit" class="btn btn-primary float-right" style="background-color: #4c345c; border: none;">
                                 Submit
                             </button>
                         </form>
