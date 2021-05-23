@@ -84,7 +84,7 @@ div.container  h1#post_page{
     border: solid 10px #4c345c;
     border-radius: 10px;
     margin-bottom: 20px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 /*contact us page*/
@@ -92,6 +92,72 @@ div.container  h1#post_page{
      min-width: 400px;
      max-width: 400px;
      max-height: 200px;
+     overflow: hidden;
+ }
+ div.card-body form{
+     margin-top:-50px;
+     font-size: 18pt;
+     margin-left:-130px;
+ }
+ div.container#oth{
+     border: none;
+     margin-top:0;
+     padding-top: 0;
+ }
+div#cont.container{
+    border:none;
+    margin-bottom:0;
+    padding-bottom: 0;
+}
+div.container-contact {
+    border: #4c345c solid;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin:100px;
+    max-width: 600px;
+}
+
+/* eyes*/
+ div.eyes{
+     position: absolute;
+     top:60%;
+     right: 10%;
+     transform: translateY(-50%);
+     width:100%;
+     text-align: right;
+ }
+ div.eye{
+     width: 180px;
+     height: 80px;
+     background-color: white;
+     display: inline-block;
+     margin:40px;
+     border-radius: 50%;
+     position: relative;
+     overflow: hidden;
+
+ }
+ div.ball{
+     width: 70px;
+     height: 70px;
+     background-color: black;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     border-radius:50% ;
+     border: 15px solid #333;
+ }
+ div.shadow{
+     width: 4px;
+     height: 4px;
+     background-color: white;
+     position: absolute;
+     top: 30%;
+     left: 70%;
+     transform: translate(-50%,-50%);
+     border-radius:50% ;
  }
 
  /* footer style */
