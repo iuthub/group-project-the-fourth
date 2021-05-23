@@ -2,7 +2,7 @@
 @section("content")
     <div class="jumbotron jumbotron-fluid" style="background-color: #A3A4B6 ;">
         <div class="container" id="mission">
-            <h1 class="display-4" style="padding-bottom: 10px;margin-left:20px;">Mission</h1>
+            <h1 class="display-4" style="padding-bottom: 10px;margin-left:20px;text-shadow: 3px 3px #A3A4B6 ; ">Mission</h1>
             <p class="lead" style="margin-left:20px;" > We, <strong>Technimals group</strong>, are here to support innovative ideas to save world of animals and
                     contribute to the development of biotechnology and bioengineering.</p>
             <?php

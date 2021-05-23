@@ -18,10 +18,12 @@
 
  /*navigation-bar*/
  div.container-fluid li a{
+     font-family: Copperplate, Papyrus, fantasy;
      color: whitesmoke;
      font-size:12pt;
  }
  a.navbar-brand{
+     font-family: Copperplate, Papyrus, fantasy;
      color: whitesmoke;
      font-size:20pt;
  }
@@ -37,6 +39,7 @@
 
  /*homepage*/
 div.container {
+    font-family: Copperplate, Papyrus, fantasy;
     border: #4c345c solid;
     border-radius: 20px;
     background-color: whitesmoke;
@@ -51,10 +54,12 @@ div.container img.home-img{
 }
 div.container  h1#post_page{
     margin-bottom: -20px;
+    text-shadow: 3px 3px #A3A4B6 ;
 }
 
  /*login page*/
  div.mb-3 input{
+     font-family: Copperplate, Papyrus, fantasy;
      border-radius: 10px;
      border-color:#4c345c;
  }
@@ -73,9 +78,10 @@ div.container  h1#post_page{
 
  /*mission*/
 #mission img{
+    font-family: Copperplate, Papyrus, fantasy;
     width: 100%;
     height: 100%;
-    border: solid 15px #4c345c;
+    border: solid 10px #4c345c;
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 0px;
@@ -90,6 +96,7 @@ div.container  h1#post_page{
 
  /* footer style */
  #footer{
+     font-family: Copperplate, Papyrus, fantasy;
      clear:both;
      border-radius: 10px;
      border-color:#4c345c;

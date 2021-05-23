@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Technimals</a>
+            <a class="navbar-brand"  href="/">Technimals</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -37,9 +37,9 @@
             </ul>
             <form action="/search" class="navbar-form navbar-left">
                 <div class="form-group">
-                    <input type="text" name="query" style=" min-width: 200px;" class="form-control search-box" placeholder="Search">
+                    <input type="text" name="query" style=" min-width: 200px; font-family: Copperplate, Papyrus, fantasy;" class="form-control search-box" placeholder="Search">
                 </div>
-                <button type="submit" class="btn btn-default" >Search</button>
+                <button type="submit" style="font-family: Copperplate, Papyrus, fantasy;" class="btn btn-default" >Search</button>
             </form>
 
             <ul class="nav navbar-nav navbar-right">
