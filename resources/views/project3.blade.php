@@ -1,7 +1,7 @@
 @extends('master')
 @section("content")
-    <link rel="stylesheet" href="{{ URL::to('css/app.css') }}">
-    <div class="container custom-login">
+    <div class="jumbotron jumbotron-fluid" style="background-color: #A3A4B6 ;">
+        <div class="container">
 
         <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
         "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -23,15 +23,15 @@
             <div style="text-align: center;">
                 <p class="lead"><strong> 3D model of concept </strong></p>
                 <?php
-                echo "<iframe src=\"video3.mp4\" width=\"60%\" style=\"height:450px\"></iframe>";
+                echo "<iframe src=\"video3.mp4\" width=\"100%\" style=\"height:450px\"></iframe>";
                 ?>
                 <p class="lead"><strong> Annotation </strong></p>
                 <?php
-                echo "<iframe src=\"Annotation_MrBug.pdf\" width=\"60%\" style=\"height:700px\"></iframe>";
+                echo "<iframe src=\"Annotation_MrBug.pdf\" width=\"100%\" style=\"height:700px\"></iframe>";
                 ?>
                 <p class="lead"><strong> Presentation </strong></p>
                 <?php
-                echo "<iframe src=\"report3.pdf\" width=\"60%\" style=\"height:450px\"></iframe>";
+                echo "<iframe src=\"report3.pdf\" width=\"100%\" style=\"height:500px\"></iframe>";
                 ?>
             </div>
         </div>
