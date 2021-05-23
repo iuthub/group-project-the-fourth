@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-dark bg-dark" style="background-color: #4c345c;;">
+<nav class="navbar navbar-dark bg-dark" style="background-color: #4c345c; position: fixed; min-width: 1450px;">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">

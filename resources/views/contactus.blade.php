@@ -1,7 +1,7 @@
 @extends('master')
 @section("content")
 
-<div class="container-contact">
+<div class="container-contact" style="margin-top:0;">
     <div class="jumbotron jumbotron-fluid" style="background-color: whitesmoke ;">
         <div class="container" id="cont" >
             <h1 class="display-4" style="text-shadow: 3px 3px #A3A4B6 ;">Contact us</h1>
