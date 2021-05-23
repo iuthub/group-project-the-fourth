@@ -6,6 +6,7 @@
      padding-top: 0;
  }
 
+
  /*header styles*/
  div.navbar-all{
      background-color: #4c345c;
@@ -15,6 +16,7 @@
      padding-top: 0;
      border-radius: 10px;
  }
+
 
  /*navigation-bar*/
  div.container-fluid li a{
@@ -28,6 +30,7 @@
      font-size:20pt;
  }
 
+
  /*navigation-bar link styles*/
  div.navbar-header a:hover {
      background-color: #9F87AF;
@@ -36,6 +39,7 @@
  div.container-fluid li a:hover{
      background-color: #9F87AF;
  }
+
 
  /*homepage*/
 div.container {
@@ -57,6 +61,7 @@ div.container  h1#post_page{
     text-shadow: 3px 3px #A3A4B6 ;
 }
 
+
  /*login page*/
  div.mb-3 input{
      font-family: Copperplate, Papyrus, fantasy;
@@ -73,7 +78,28 @@ div.container  h1#post_page{
      padding-top: 10px;
  }
 
+
 /*facts*/
+ div.container ul{
+     padding-left: 0;
+ }
+div.container li.proj{
+    display: inline;
+}
+div.container a.ref{
+    font-size: 16pt;
+    padding: 8px;
+    background-color: #ddaae3;
+ }
+ div.container a.ref:visited{
+     background-color: #ddaae3;
+     color: white;
+ }
+div.container a.ref:hover{
+    background-color: #9F87AF;
+    color:#4c345c ;
+    text-decoration: none;
+}
 
 
  /*mission*/
@@ -86,6 +112,7 @@ div.container  h1#post_page{
     margin-bottom: 20px;
     margin-top: 0;
 }
+
 
 /*contact us page*/
  div.form-group input.form-control, textarea{
@@ -117,6 +144,7 @@ div.container-contact {
     margin:100px;
     max-width: 600px;
 }
+
 
 /* eyes*/
  div.eyes{
@@ -159,6 +187,7 @@ div.container-contact {
      transform: translate(-50%,-50%);
      border-radius:50% ;
  }
+
 
  /* footer style */
  #footer{
