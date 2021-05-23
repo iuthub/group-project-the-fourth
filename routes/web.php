@@ -56,4 +56,5 @@ Route::get("detail/{id}",[ArticleController::class,'detail']);
 Route::post('add_to_cart',[ArticleController::class,'addToCart']);
 Route::get('cartlist',[ArticleController::class,'cartList']);
 Route::get('removecart/{id}',[ArticleController::class,'removeCart']);
-Route::resource('comments', 'CommentsController');
+
+Route::post('/save-comment/{id}',[ArticleController::class,'save_comment']);

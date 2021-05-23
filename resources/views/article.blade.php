@@ -43,7 +43,7 @@
     </div>
 
         <div class="container" >
-        <div class="trending-wrapper" ">
+        <div class="trending-wrapper">
         @foreach($articles as $item)
             <div class="trending-item">
                 <a href="detail/{{$item['id']}}">

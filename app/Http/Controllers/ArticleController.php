@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Article;
+use App\Models\Comment;
 use Illuminate\Http\Request;
 use App\Models\Cart;
 use Session;
@@ -44,5 +45,17 @@ class ArticleController extends Controller
     function removeCart($id){
         Cart::destroy($id);
         return redirect('cartlist');
+    }
+
+    function save_comment(Request $request,$id){
+        $request->validate([
+            'comment'=>'required'
+        ]);
+        $data=new Comment;
+        $data->user_id=$request->session()->get('user')['id'];
+        $data->article_id=$id;
+        $data->comment=$request->comment;
+        $data->save();
+        return redirect('detail/'.$id)->with('success','Comment has been submitted.');
     }
 }
