@@ -18,6 +18,8 @@
             @csrf
             <input type="hidden" name="article_id" value="{{$article['id']}}">
             <button class="btn btn-primary" style="margin-top: 50px; margin-left: 10px; margin-bottom: 50px">Add to favorite list</button>
+
+
         </form>
         <div class="card my-5">
             <h3 class="card-header" align="center">Add Comment</h3>
@@ -30,9 +32,17 @@
             </div>
         </div>
 
+            @foreach($article as $comment)
+                <div class="trending-item">
+                    <div class="">
+                        <h3>Comment</h3>
+                        <p>Author: NewUser</p>
+                        <p>Good job!</p>
+                    </div>
+                </div>
+            @endforeach
+    </div>
 
-    </div>
-    </div>
 
 
 @endsection

@@ -47,6 +47,7 @@ class ArticleController extends Controller
         return redirect('cartlist');
     }
 
+
     function save_comment(Request $request,$id){
         $request->validate([
             'comment'=>'required'
@@ -56,6 +57,21 @@ class ArticleController extends Controller
         $data->article_id=$id;
         $data->comment=$request->comment;
         $data->save();
+
         return redirect('detail/'.$id)->with('success','Comment has been submitted.');
     }
+
+/*
+    function save_comment(Request $request,$id){
+        $request->validate([
+            'comment'=>'required'
+        ]);
+        $data=new Comment;
+        $data->user_id=$request->session()->get('user')['id'];
+        $data->article_id=$id;
+        $data->comment=$request->comment;
+        $data->save();
+        return redirect('article/'.$id)->with('success','Comment has been submitted.');
+    }
+*/
 }
