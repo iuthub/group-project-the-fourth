@@ -36,7 +36,7 @@
                 <div class="trending-item">
                     <div class="">
                         <h3>Comment</h3>
-                        <p>Author: NewUser</p>
+                        <p>Author: elina abd</p>
                         <p>Good job!</p>
                     </div>
                 </div>
